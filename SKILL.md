@@ -1,119 +1,119 @@
 ---
-name: content-creation
-description: Guide users through a structured workflow for creating high-quality content. Use when the user wants to write blog posts, articles, social media content, newsletters, scripts, marketing copy, or any other type of written content. Trigger when user mentions writing a post, article, newsletter, script, or any content creation task.
+name: creacion-de-contenido
+description: Guia al usuario a traves de un flujo de trabajo estructurado para crear contenido de alta calidad. Usar cuando el usuario quiera escribir entradas de blog, articulos, contenido para redes sociales, newsletters, guiones, textos de marketing o cualquier otro tipo de contenido escrito. Activar cuando el usuario mencione que quiere escribir una publicacion, articulo, newsletter, guion o cualquier tarea de creacion de contenido.
 ---
 
-# Content Creation Workflow
+# Flujo de Trabajo: Creacion de Contenido
 
-This skill provides a structured workflow for creating high-quality written content. Act as an expert content strategist and writer, guiding the user through four stages: Brief and Strategy, Outline and Structure, Drafting, and Polish and Review.
+Este skill proporciona un flujo de trabajo estructurado para crear contenido escrito de alta calidad. Actua como un experto en estrategia de contenido y redaccion, guiando al usuario a traves de cuatro etapas: Brief y Estrategia, Esquema y Estructura, Redaccion, y Pulido y Revision.
 
-## When to Offer This Workflow
+## Cuando Ofrecer Este Flujo de Trabajo
 
-Trigger conditions:
+Condiciones para activarlo:
 
-- User wants to write a blog post, article, or essay
-- User needs social media content (LinkedIn, Twitter/X, Instagram, etc.)
-- User wants to create a newsletter, email campaign, or marketing copy
-- User needs a script (video, podcast, webinar, presentation)
-- User says things like "write a post about", "help me create content", "draft an article"
+- El usuario quiere escribir una entrada de blog, articulo o ensayo
+- - El usuario necesita contenido para redes sociales (LinkedIn, Twitter/X, Instagram, etc.)
+  - - El usuario quiere crear una newsletter, campana de email o texto de marketing
+    - - El usuario necesita un guion (video, podcast, webinar, presentacion)
+      - - El usuario dice cosas como "escribe una publicacion sobre", "ayudame a crear contenido", "redacta un articulo"
+       
+        - Oferta inicial: Ofrece al usuario un flujo de trabajo estructurado de cuatro etapas. Pregunta si prefiere el flujo estructurado o trabajar de forma libre.
+       
+        - Si el usuario declina, trabajar de forma libre. Si acepta, continuar con la Etapa 1.
+       
+        - ---
 
-Initial offer: Offer the user a structured four-stage workflow. Ask if they want the structured workflow or prefer to work freeform.
+        ## Etapa 1: Brief y Estrategia
 
-If user declines, work freeform. If user accepts, proceed to Stage 1.
+        Objetivo: Entender el proposito del contenido, la audiencia, la plataforma y el resultado deseado antes de escribir una sola palabra.
 
----
+        Preguntar al usuario:
 
-## Stage 1: Brief and Strategy
+        1. Que tipo de contenido? (entrada de blog, articulo de LinkedIn, hilo de Twitter, newsletter, guion de video, etc.)
+        2. 2. Quien es la audiencia objetivo? (datos demograficos, nivel de experiencia, intereses, problemas que enfrenta)
+           3. 3. Cual es el objetivo principal? (educar, entretener, inspirar, convertir, construir autoridad, etc.)
+              4. 4. En que plataforma o canal? (sitio web, LinkedIn, Medium, email, YouTube, etc.)
+                 5. 5. Cual es el tono deseado? (profesional, informal, conversacional, autoritario, humoristico, etc.)
+                    6. 6. Cual es la longitud o formato aproximado? (articulo de 500 palabras, hilo de 5 tweets, guion de 60 segundos, etc.)
+                       7. 7. Hay palabras clave, frases o temas que deban incluirse?
+                          8. 8. Cual es el mensaje clave que el lector debe llevarse?
+                            
+                             9. Permitir que el usuario responda en forma abreviada o que vuelque todo el contexto de una vez. Tras recopilar las respuestas, resumir el brief de contenido al usuario y confirmar que es correcto antes de continuar.
+                            
+                             10. Condicion de salida: El usuario confirma que el brief es correcto.
+                            
+                             11. ---
+                            
+                             12. ## Etapa 2: Esquema y Estructura
+                            
+                             13. Objetivo: Construir un esqueleto solido del contenido antes de redactar cualquier prosa.
+                            
+                             14. Proceso:
+                            
+                             15. 1. Con base en el brief, proponer 3 esquemas estructurales diferentes.
+                                 2. 2. Preguntar al usuario cual prefiere o si desea combinar elementos.
+                                    3. 3. Una vez seleccionado el esquema, preguntar si hay secciones que agregar, eliminar o reordenar.
+                                       4. 4. Finalizar el esquema y obtener la aprobacion del usuario antes de redactar.
+                                         
+                                          5. Consejos por plataforma:
+                                         
+                                          6. - Articulos y blogs: gancho, problema, solucion, prueba, llamada a la accion.
+                                             - - Hilos de redes sociales: gancho inicial fuerte, parrafos cortos e impactantes, cierre con pregunta de interaccion.
+                                               - - Guiones: bucle abierto, desarrollo del contenido, llamada a la accion clara.
+                                                 - - Newsletters: apertura personal, idea principal, consejo practico, despedida.
+                                                  
+                                                   - Condicion de salida: El usuario aprueba el esquema final.
+                                                  
+                                                   - ---
 
-Goal: Understand the content purpose, audience, platform, and desired outcome before writing a single word.
+                                                   ## Etapa 3: Redaccion
 
-Ask the user:
+                                                   Objetivo: Escribir un primer borrador completo basado en el esquema aprobado y luego refinarlo de forma iterativa.
 
-1. What type of content? (blog post, LinkedIn article, Twitter thread, newsletter, video script, etc.)
-2. Who is the target audience? (demographics, expertise level, interests, pain points)
-3. What is the primary goal? (educate, entertain, inspire, convert, build authority, etc.)
-4. What platform or channel? (website, LinkedIn, Medium, email, YouTube, etc.)
-5. What is the desired tone? (professional, casual, conversational, authoritative, humorous, etc.)
-6. What is the approximate length or format? (500-word article, 5-tweet thread, 60-second script, etc.)
-7. Are there any keywords, phrases, or topics that must be included?
-8. What is the one key message the reader should take away?
+                                                   Proceso:
 
-Allow the user to answer in shorthand or dump all context at once. After gathering answers, summarize the content brief back to the user and confirm it is correct before proceeding.
+                                                   1. Escribir el borrador completo basado en el esquema y el brief aprobados.
+                                                   2. 2. Respetar el tono, la longitud, la plataforma y la audiencia definidos en la Etapa 1.
+                                                      3. 3. Presentar el borrador completo al usuario.
+                                                         4. 4. Pedir retroalimentacion: Que secciones no suenan bien? El gancho es suficientemente fuerte? La llamada a la accion es clara?
+                                                            5. 5. Realizar ediciones puntuales. No reescribir todo a menos que se solicite explicitamente.
+                                                               6. 6. Repetir hasta que el usuario este satisfecho.
+                                                                 
+                                                                  7. Reglas clave:
+                                                                 
+                                                                  8. - Nunca volver a imprimir el borrador completo tras ediciones menores. Mostrar solo la seccion modificada.
+                                                                     - - Adaptar el formato del contenido a la plataforma (saltos de linea para LinkedIn, hashtags para Instagram, limites de caracteres para Twitter/X).
+                                                                       - - Si el usuario pide optimizacion SEO, integrar las palabras clave objetivo de forma natural sin saturarlas.
+                                                                         - - Si el usuario proporciona contenido existente para reescribir o mejorar, saltar las Etapas 1 y 2 e ir directamente a la Etapa 3.
+                                                                          
+                                                                           - Condicion de salida: El usuario esta satisfecho con el borrador.
+                                                                          
+                                                                           - ---
 
-Exit condition: User confirms the brief is accurate.
+                                                                           ## Etapa 4: Pulido y Revision
 
----
+                                                                           Objetivo: Elevar el contenido de bueno a listo para publicar.
 
-## Stage 2: Outline and Structure
+                                                                           Revisar los siguientes puntos e informar sobre cualquier problema encontrado:
 
-Goal: Build a solid skeleton for the content before any prose is written.
+                                                                           - Claridad: Es cada oracion facil de entender? Hay parrafos con demasiado jargon que simplificar?
+                                                                           - - Consistencia: El tono y la voz son consistentes en todo el texto?
+                                                                             - - Fluidez: Las secciones hacen transiciones suaves? El contenido se desarrolla de forma logica?
+                                                                               - - Fuerza del gancho: La apertura obliga al lector a seguir leyendo?
+                                                                                 - - Llamada a la accion: Hay una llamada a la accion clara y convincente al final?
+                                                                                   - - Longitud: El contenido tiene la longitud adecuada para la plataforma? Hay algo que deba eliminarse?
+                                                                                     - - Formato: Los encabezados, viñetas y parrafos son apropiados para la plataforma?
+                                                                                      
+                                                                                       - Tras la revision, presentar una lista corta de mejoras especificas sugeridas. Aplicar los cambios que el usuario apruebe.
+                                                                                      
+                                                                                       - Paso final: Pedir al usuario que haga una lectura final. Una vez confirmado, declarar el contenido listo para publicar.
+                                                                                      
+                                                                                       - ---
 
-Process:
+                                                                                       ## Consejos para una Guia Efectiva
 
-1. Based on the brief, propose 3 different structural outlines.
-2. Ask the user which outline they prefer, or if they would like to combine elements.
-3. Once an outline is selected, ask if any sections should be added, removed, or reordered.
-4. Finalize the outline and get user sign-off before drafting.
-
-Platform-specific tips:
-
-- Articles and blog posts: hook, problem, solution, proof, CTA.
-- Social media threads: strong opening hook, short punchy paragraphs, engagement prompt at close.
-- Scripts: open loop, content delivery, clear call-to-action.
-- Newsletters: personal opener, main insight, actionable tip, sign-off.
-
-Exit condition: User approves the final outline.
-
----
-
-## Stage 3: Drafting
-
-Goal: Write a complete first draft based on the approved outline, then refine iteratively.
-
-Process:
-
-1. Write the full draft based on the approved outline and brief.
-2. Respect the tone, length, platform, and audience defined in Stage 1.
-3. Present the complete draft to the user.
-4. Ask for feedback: Which sections feel off? Is the hook strong enough? Is the CTA clear?
-5. Make targeted edits. Do not rewrite the whole piece unless explicitly asked.
-6. Repeat until user is satisfied.
-
-Key rules:
-
-- Never reprint the entire draft after small edits. Only show the changed section.
-- Match content format to the platform (line breaks for LinkedIn, hashtags for Instagram, character limits for Twitter/X).
-- If the user asks for SEO optimization, naturally integrate target keywords without keyword stuffing.
-- If the user provides existing content to rewrite or improve, skip Stages 1 and 2 and go directly to Stage 3.
-
-Exit condition: User is satisfied with the draft.
-
----
-
-## Stage 4: Polish and Review
-
-Goal: Elevate the content from good to publish-ready.
-
-Run through the following checks and report any issues found:
-
-- Clarity: Is every sentence easy to understand? Are there jargon-heavy passages to simplify?
-- Consistency: Is the tone and voice consistent throughout?
-- Flow: Do sections transition smoothly? Does the content build logically?
-- Hook strength: Does the opening compel the reader to keep going?
-- CTA: Is there a clear and compelling call to action at the end?
-- Length: Is the content the right length for the platform? Should anything be cut?
-- Formatting: Are headings, bullets, and paragraphs appropriate for the platform?
-
-After the checklist, present a short list of specific suggested improvements. Make the changes the user approves.
-
-Final step: Ask the user to do one final read-through. Once confirmed, declare the content ready to publish.
-
----
-
-## Tips for Effective Guidance
-
-- Be direct and decisive: Suggest specific choices rather than asking open-ended questions.
-- Adapt to the user pace: Some users want a quick draft; others want deep iteration. Match their pace.
-- Platform awareness: Always tailor formatting to the specific platform.
-- Keep explanations brief: The user is here to create content, not learn about the process.
-- Respect the brief: Always check new decisions against the original brief to maintain coherence.
+                                                                                       - Se directo y decisivo: Sugiere opciones especificas en lugar de hacer preguntas abiertas.
+                                                                                       - - Adapta el ritmo al usuario: Algunos quieren un borrador rapido; otros prefieren una iteracion profunda. Ajustate a su ritmo.
+                                                                                         - - Conciencia de la plataforma: Adapta siempre el formato a la plataforma especifica.
+                                                                                           - - Mantener las explicaciones breves: El usuario esta aqui para crear contenido, no para aprender sobre el proceso.
+                                                                                             - - Respetar el brief: Siempre verificar las nuevas decisiones contra el brief original para mantener la coherencia.
